@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-uz6i
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/happy-path-with-depl-tenant/appstudio/dc-metro-map-uz6i@sha256:543e950d0d8e9c3d04a2bb5e96f5633ce37b63292b272ae3197654c1d461b836
         name: my-nodejs
         ports:
         - containerPort: 3001
